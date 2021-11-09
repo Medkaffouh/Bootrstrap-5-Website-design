@@ -12,7 +12,6 @@
 .upper-bar a{
     text-decoration: none;
     color: #929fa5;
-    transition: all 0.3s;
 }
 
 .upper-bar i{
@@ -24,10 +23,10 @@
 }
 
 .upper-bar .quote{
-    text-decoration: none;
     padding: 1px 10px;
     margin-left: 50px;
     border: 1.5px solid #ec1c23;
+    transition: all 0.3s;
 }
 
 .upper-bar .quote:hover{
@@ -36,3 +35,30 @@
 }
 
 /* Start NavBar */
+.navbar-brand span{
+    font-size: 40px;
+}
+.navbar-brand span:first-child{
+    font-weight: bold;
+    color: #08526d;
+}
+
+.navbar-brand span:last-child{
+    color: #ec1c23;
+    font-weight: 300;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #08526d;
+    font-weight: 600;
+    padding-left: 35px
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color: #ec1c23;
+}
+
+/*Start Slider*/
+.slider{
+    background-color: #ec1c23;
+}
