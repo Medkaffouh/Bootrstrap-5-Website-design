@@ -1,0 +1,38 @@
+/*
+    In this website i will use bootstrap 5 framework
+*/
+
+/* Start Upper Bar */
+.upper-bar{
+    background-color: #08526d;
+    padding: 10px 0;
+    color: #929fa5;
+}
+
+.upper-bar a{
+    text-decoration: none;
+    color: #929fa5;
+    transition: all 0.3s;
+}
+
+.upper-bar i{
+    color: white;
+}
+
+.upper-bar .mail{
+    color: white;
+}
+
+.upper-bar .quote{
+    text-decoration: none;
+    padding: 1px 10px;
+    margin-left: 50px;
+    border: 1.5px solid #ec1c23;
+}
+
+.upper-bar .quote:hover{
+    color: #929fa5;
+    background-color: #ec1c23;
+}
+
+/* Start NavBar */
