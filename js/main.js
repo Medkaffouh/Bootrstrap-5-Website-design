@@ -4,5 +4,5 @@ $(function (){
     var winH    = $(window).height(),
         upperH  = $('.upper-bar').innerHeight(),
         navH    = $('.navbar').innerHeight();
-    $('.slider').height(winH - (upperH + navH));
+    $('.slider .carousel-item').height(winH - (upperH + navH));
 });

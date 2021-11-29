@@ -59,6 +59,21 @@
 }
 
 /*Start Slider*/
-.slider{
-    background-color: #ec1c23;
+.slider .carousel-item{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.slider .carousel-one{
+    background-image: url('../img/slider01.jpg');
+}
+
+.slider .carousel-two{
+    background-image: url('../img/slider02.jpg');
+}
+
+.slider .carousel-three{
+    background-image: url('../img/slider03.jpg');
 }
